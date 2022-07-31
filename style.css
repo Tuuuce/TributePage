@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+    color: rgb(227, 73, 73);
+}
+
+body {
+    background: #F7F7F7;
+}
+
+.head-image {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.rainbow-text {
+    font-size: 45px;
+    position: absolute;
+    top: 80px;
+    left: 3%;
+    background-color: #ffffff;
+}
+
+.head-text {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 3%;
+    background-color: #f74820;
+}
+
+
+.main-text {
+    font-size: 25px;
+    text-align: center;
+    margin: 50px 37px 50px 70px 
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;  
+    text-align: justify;
+}
+
+.image1, .image2, .image3 {
+    border: 5px solid #196F3D;
+    height: 400px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 40px 30px 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #196F3D;
+    color: white;
+    box-sizing: border-box;
+}
+
+#current_date {
+    background-color: #f74820;
+    color: #ffffff;
+}
+
+
+ @media screen and (max-width: 1192px) {
+
+    .rainbow-text {
+        font-size: 45px;
+    }
+
+    .head-text {
+        font-size: 30px;
+    }
+
+    .head-image {
+        position: relative;
+        width: auto;
+        height: 400px;
+
+    }
+
+    .image1, .image2, .image3 {
+         height: 300px;
+        justify-content: space-evenly;
+    }
+
+    .images {
+        height: auto;   
+    }
+
+    ul {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+ }
+
+ @media screen and (max-width: 425px)  {
+    .head-image {
+        position: relative;
+        width: auto;
+        height: 200px;
+    }
+
+    .image1, .image2, .image3 {
+        height: 200px;
+    }
+
+    .rainbow-text {
+        font-size: 20px;
+        top: 70px;
+    }
+    
+    .head-text {
+        font-size: 15px;
+        top: 100px;
+
+    }
+
+    .main-text {
+        font-size: 15px;
+    }
+
+ }
